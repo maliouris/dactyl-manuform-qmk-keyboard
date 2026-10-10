@@ -1,6 +1,6 @@
-# void_ergo_s
+# dactyl_manuform
 
-![void_ergo_s](imgur.com image replace me!)
+![dactyl_manuform](imgur.com image replace me!)
 
 *A short description of the keyboard/project*
 
@@ -10,11 +10,11 @@
 
 Make example for this keyboard (after setting up your build environment):
 
-    make void_ergo_s:default
+    make dactyl_manuform:default
 
 Flashing example for this keyboard:
 
-    make void_ergo_s:default:flash
+    make dactyl_manuform:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
@@ -44,5 +44,5 @@ qmk compile -kb handwired/dactyl_manuform/4x6 -km default
 7. Connect both parts to pc
 
 ```
-        qmk flash handwired_dactyl_manuform_4x6_default.hex -bl avr-dude-split-right
+qmk flash handwired_dactyl_manuform_4x6_default.hex -bl avr-dude-split-right
 ```
