@@ -31,7 +31,7 @@ Enter the bootloader in 3 ways:
 
 ### Compile
 ```
-qmk compile -kb handwired/dactyl_manuform/my-custom-keyboard -km default
+qmk compile -kb handwired/dactyl_manuform/my_custom_keyboard -km default
 ```
 
 ### Persist
@@ -44,5 +44,5 @@ qmk compile -kb handwired/dactyl_manuform/my-custom-keyboard -km default
 7. Connect both parts to pc
 
 ```
-qmk flash handwired_dactyl_manuform_my-custom-keyboard_default.hex -bl avr-dude-split-right
+qmk flash handwired_dactyl_manuform_my_custom_keyboard_default.hex -bl avr-dude-split-right
 ```
